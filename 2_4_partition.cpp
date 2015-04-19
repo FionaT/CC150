@@ -101,7 +101,6 @@ int main()
     
     cout<<endl;
     
-    //head = deleteNode(2, head);
     head = partition(head, 4);
     
     h = head;

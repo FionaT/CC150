@@ -23,13 +23,13 @@
 using namespace std;
 
 bool isPermu(string s1, string s2){
-    int bucket1[128];
-    int bucket2[128];
+    int bucket1[256];
+    int bucket2[256];
     
     if(s1.length() != s2.length())
         return false;
     
-    for(int i = 0; i < 128; i++){
+    for(int i = 0; i < 256; i++){
         bucket1[i] = 0;
         bucket2[i] = 0;
     }
