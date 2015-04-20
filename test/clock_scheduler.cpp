@@ -17,6 +17,7 @@ ClockScheduler::ClockScheduler(int f, bool v){
 	}else{
 		cout<<"Clock Physical"<<endl;
 	}*/
+
 }
 
 ClockScheduler::~ClockScheduler(){

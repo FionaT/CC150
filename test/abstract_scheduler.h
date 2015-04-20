@@ -16,6 +16,7 @@ public:
 	RandGen *random;
 	queue<int> frame_queue;
 	vector<int> frame_vect;
+	vector<bitset<32>> counters;
 	
 	AbstractScheduler();
 	AbstractScheduler(int n);

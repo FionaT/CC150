@@ -12,6 +12,7 @@ class ClockScheduler : public AbstractScheduler
 public:
 	int frame_num;
 	bool is_v;
+	
 	//int clock_hand;
 	
 	ClockScheduler();

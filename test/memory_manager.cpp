@@ -135,6 +135,18 @@ void MemoryManager::print_frame_table(bool is_last){
 		}
 	}
 	
+	if( (algo_type == "a" || algo_type == "Y") && is_last == false){
+		cout<<" || ";
+		
+		vector<bitset<32>> tmp = scheduler->counters;
+		
+		
+		for(int i = 0; i < frame_id; i++){
+			cout<<i;
+			cout<<":"<<tmp[i].to_ulong()<<" ";
+		}
+	}
+	
 	/*
 	if( (algo_type == "l") && is_last == false){
 		cout<<" || ";

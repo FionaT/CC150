@@ -28,7 +28,7 @@ MemoryManager* InstructionReader::initialize(string &command, string &filename){
 	bool f = false;
 	
 	string rfile_name = "rfile";
-	string algo = "X";
+	string algo = "Y";
 	
 	MemoryManager *MM = new MemoryManager(algo, frame_num, rfile_name, O, P, F, S, p, f);
 	
